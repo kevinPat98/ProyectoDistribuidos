@@ -120,7 +120,7 @@ body {
   # Header
   --------------------------------------------------------------*/
   #header {
-    background: rgb(172, 209, 4);
+    background: rgb(255, 255, 255);
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
@@ -136,10 +136,11 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
+    color: #ddc700;
   }
   
   #header .logo a {
-    color: #5fcf80;
+    color: #ddc700;
   }
   
   #header .logo img {
@@ -215,7 +216,7 @@ body {
   }
   
   .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-    color: #5fcf80;
+    color: #ddc700;
   }
   
   .navbar .dropdown ul {
